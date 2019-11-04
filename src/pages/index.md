@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great beer with a conscience
+title: Great Coke with a conscience
 image: /img/products-full-width.jpg
-heading: Great Pepsi with a conscience
+heading: Great Coke with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
