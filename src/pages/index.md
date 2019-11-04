@@ -1,11 +1,11 @@
 ---
 templateKey: index-page
-title: Great Pepsi with a conscience
+title: Great beer with a conscience
 image: /img/products-full-width.jpg
 heading: Great Pepsi with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Allyn
+  title: Why Kaldi
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
