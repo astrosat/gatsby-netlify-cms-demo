@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great Fanta without a conscience
-image: /img/products-full-width.jpg
-heading: Great Coke with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: DATA VISUALIZATION THROUGH SPACE TECHNOLOGY
+image: '../img/Orbis-assets/Orbis/header_image.jpg'
+heading: DATA VISUALIZATION THROUGH SPACE TECHNOLOGY
+subheading: Harnessing the power of space data to decisionsupport on Earth.
 mainpitch:
   title: Why Kaldi
   description: >
