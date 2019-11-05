@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great Coke without a conscience
+title: Great Irn-Bru without a conscience
 image: /img/products-full-width.jpg
 heading: Great Coke with a conscience
 subheading: Support sustainable farming while enjoying a cup
