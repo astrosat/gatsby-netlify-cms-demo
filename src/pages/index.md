@@ -20,9 +20,9 @@ intro:
       text: >
         blurb text 3
 main:
-  heading: main.heading
+  heading: A World of Data From Space
   description: >
-    main.description
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg

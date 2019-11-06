@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -12,6 +11,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
+  main,
   intro
 }) => (
   <div>
@@ -61,24 +61,13 @@ export const IndexPageTemplate = ({
                   <Features gridItems={intro.blurbs} heading={intro.heading}/>
                 {/* this is the 'stories' components */}
 
-                <div>
-                  <div>
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
+                    <div>{main.heading}</div>
+                    <div>{main.description}</div>
+                    <Link to="/">
+                      Discover OR3IS
                     </Link>
                   </div>
-                </div>
               </div>
             </div>
           </div>
@@ -97,7 +86,8 @@ IndexPageTemplate.propTypes = {
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
-  })
+  }),
+  main: PropTypes.object
 }
 
 const IndexPage = ({ data }) => {
@@ -113,6 +103,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        main={frontmatter.main}
       />
     </Layout>
   )
@@ -161,6 +152,10 @@ export const pageQuery = graphql`
           heading
           description
         }
+      main {
+        heading
+        description
+      }
       }
     }
   }
