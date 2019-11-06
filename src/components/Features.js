@@ -2,23 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+const FeatureGrid = ({ gridItems, heading }) => (
+  <div>
+    <div className="modules-header-div">
+      {heading}
+    </div>
     {gridItems.map(item => (
-      <div key={item.text} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
-            </div>
-          </div>
-          <p>{item.text}</p>
-        </section>
+      <div className="story-container-div" key={item.text}>
+        <p className="story-text">{item.text}</p>
+        <PreviewCompatibleImage imageInfo={item} />
       </div>
     ))}
   </div>

@@ -172,7 +172,6 @@ $menu-label-color: $white-ter;
 // ASTROSAT DESIGN CSS PAST THIS POINT
 
 // HEADER
-
 .DATA-VISUALISATION-T {
   width: 375px;
   height: 108px;
@@ -201,8 +200,27 @@ $menu-label-color: $white-ter;
   color: #ffffff;
 }
 
-// FOOTER
+// MODULES SECTION
+.modules-header-div {
+  border-bottom: 2px solid yellow;
+}
 
+// STORIES SECTION
+.story-container-div {
+  position: relative;
+  margin: 1em;   
+}
+
+.story-text {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  top: 80%;
+  left: 5%;
+}
+
+
+// FOOTER
 .Follow-us {
   width: 75px;
   height: 22px;
