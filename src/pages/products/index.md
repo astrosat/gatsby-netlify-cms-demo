@@ -19,6 +19,6 @@ intro:
         image 3 text
   heading: What we offer
   description: >
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 full_image: /img/products-full-width.jpg
 ---
