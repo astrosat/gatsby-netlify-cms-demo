@@ -34,42 +34,42 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Subheading, name: subheading, widget: string}
 
-          - {label: Modules, name: mainpitch, widget: object, 
+          - {label: Modules, name: mainpitch, widget: object,
               fields: [
-                {label: Title, name: title, widget: string}, 
+                {label: Title, name: title, widget: string},
                 {label: Description, name: description, widget: text}
               ]
             }
-            
+
           - {label: Description, name: description, widget: string}
 
-          - {label: Stories, name: intro, widget: object, 
+          - {label: Stories, name: intro, widget: object,
             fields: [
-              {label: Heading, name: heading, widget: string}, 
+              {label: Heading, name: heading, widget: string},
               {label: Blurbs, name: blurbs, widget: list, fields: [
                 {label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}
               ]}
             ]}
 
-          - {label: "Orbis Info", name: main, widget: object, 
+          - {label: Orbisinfo, name: main, widget: object,
               fields: [
-                {label: Heading, name: heading, widget: string}, 
-                {label: Description, name: description, widget: text}, 
-                {label: Image1, name: image1, widget: object, 
+                {label: Heading, name: heading, widget: string},
+                {label: Description, name: description, widget: text},
+                {label: Image1, name: image1, widget: object,
                   fields: [
-                    {label: Image, name: image, widget: image}, 
+                    {label: Image, name: image, widget: image},
                     {label: Alt, name: alt, widget: string}
                     ]
-                }, 
-                    {label: Image2, name: image2, widget: object, 
+                },
+                    {label: Image2, name: image2, widget: object,
                       fields: [
-                        {label: Image, name: image, widget: image}, 
+                        {label: Image, name: image, widget: image},
                         {label: Alt, name: alt, widget: string}
                       ]
-                    }, 
-                    {label: Image3, name: image3, widget: object, 
+                    },
+                    {label: Image3, name: image3, widget: object,
                       fields: [
-                        {label: Image, name: image, widget: image}, 
+                        {label: Image, name: image, widget: image},
                         {label: Alt, name: alt, widget: string}
                       ]
                     }

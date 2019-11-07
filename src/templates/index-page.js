@@ -88,8 +88,7 @@ IndexPageTemplate.propTypes = {
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
-  }),
-  main: PropTypes.object
+  })
 }
 
 const IndexPage = ({ data }) => {
