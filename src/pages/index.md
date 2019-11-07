@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: DATA VISUALIZATION THROUGH SPACE TECHNOLOGY
+title: DATA VISUALIZATION THROUGH SPACE TECHNOLOGY added text
 image: ../img/Orbis-assets/Orbis/header_image.jpg
 heading: DATA VISUALIZATION THROUGH SPACE TECHNOLOGY
 subheading: Harnessing the power of space data to decision support on Earth.
