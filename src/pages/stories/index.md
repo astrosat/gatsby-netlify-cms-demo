@@ -1,6 +1,6 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: 'stories-page'
+path: /stories
 title: Stories
 image: /img/jumbotron.jpg
 heading: WHAT IS STORY?
