@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const IndexPageTemplate = ({
   image,
@@ -54,7 +55,8 @@ export const IndexPageTemplate = ({
 
                 <div className='slide-container-div'>
                   <div className='image-container-div'>
-                    Image container div goes here
+                    (image carousel goes here)
+                    <PreviewCompatibleImage imageInfo={intro.blurbs[2]} />
                   </div>
                 </div>
 
