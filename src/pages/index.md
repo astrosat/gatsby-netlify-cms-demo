@@ -6,7 +6,6 @@ heading: DATA VISUALIZATION THROUGH SPACE TECHNOLOGY
 subheading: Harnessing the power of space data to decision support on Earth.
 mainpitch:
   title: MODULES
-description: description
 intro:
   heading: STORIES
   blurbs:

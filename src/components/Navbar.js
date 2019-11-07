@@ -40,9 +40,9 @@ const Navbar = class extends React.Component {
       >
         <div className="navbar-container">
           <div className="navbar-brand">
-            <Link 
-              to="/" 
-              className="navbar-item" 
+            <Link
+              to="/"
+              className="navbar-item"
               title="Logo"
             >
               ASTROSAT
@@ -66,13 +66,13 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 OR3IS
               </Link>
-              <Link className="navbar-item" to="/products">
+              <Link className="navbar-item" to="/blog">
                 MODULES
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item" to="/contact">
                 PLANS
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar-item" to="/products">
                 STORIES
               </Link>
               <Link className="navbar-item" to="/contact/examples">
