@@ -13,12 +13,12 @@ const Footer = class extends React.Component {
       <footer >
         <div style={
           {
-            'background-color': 'red', 
-            'display': 'flex', 
-            'justify-content': 
+            'backgroundColor': 'red',
+            'display': 'flex',
+            'justifyContent':
             'space-between',
             'height': '45px',
-            'background-color': '#f6be00'
+            'backgroundColor': '#f6be00'
           }}>
           <div className='Follow-us'>Follow us</div>
           <div className="social">
@@ -44,14 +44,14 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-              </div>      
+              </div>
         </div>
           <div style={
             {
               'height': '450px',
-              'background-color': '#333f48'
+              'backgroundColor': '#333f48'
           }}>
-            
+
             <div className='footer-logo'><h3>LOGO GOES HERE</h3></div>
 
             <div className="footer-columns">

@@ -29,7 +29,7 @@ export const ModulesPageTemplate = ({
         <p>{description}</p>
       </div>
       <div>
-        <Features gridItems={intro.blurbs} />
+        <Features name='modules' gridItems={intro.blurbs} />
         <div>
           {intro.heading}
         </div>

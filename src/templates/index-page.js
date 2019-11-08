@@ -59,7 +59,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
 
-                  <Features gridItems={intro.blurbs} heading={intro.heading}/>
+                  <Features name='index' gridItems={intro.blurbs} heading={intro.heading}/>
                 {/* this is the 'stories' components */}
 
                   <div className="column is-12 has-text-centered">

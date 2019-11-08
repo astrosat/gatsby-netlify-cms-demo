@@ -29,7 +29,7 @@ export const StoriesPageTemplate = ({
         <p>{description}</p>
       </div>
       <div>
-        <Features gridItems={intro.blurbs} />
+        <Features name='stories' gridItems={intro.blurbs} />
         <div>
           {intro.heading}
         </div>
