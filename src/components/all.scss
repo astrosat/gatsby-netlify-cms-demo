@@ -213,6 +213,10 @@ $menu-label-color: $white-ter;
 .stories-container {
   display: flex;
   flex-wrap: wrap;
+
+  &-reverse {
+    flex-direction: row-reverse;
+  }
 }
 
 .stories-container-reverse {

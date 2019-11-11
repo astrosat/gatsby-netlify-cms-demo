@@ -89,6 +89,30 @@ collections:
             }
           - {label: Full_image, name: full_image, widget: image}
 
+      - file: "src/pages/pricing/index.md"
+        label: "Pricing"
+        name: "pricing"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "pricing-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Description, name: description, widget: string}
+
+          - {label: Intro, name: intro, widget: object,
+              fields: [
+                {label: Heading, name: heading, widget: string},
+                {label: Description, name: description, widget: text},
+                {label: Blurbs, name: blurbs, widget: list,
+                  fields: [
+                    {label: Image, name: image, widget: image},
+                    {label: Text, name: text, widget: text}
+                  ]
+                }
+              ]
+            }
+          - {label: Full_image, name: full_image, widget: image}
+
 
   # - name: "blog"
   #   label: "Blog"
