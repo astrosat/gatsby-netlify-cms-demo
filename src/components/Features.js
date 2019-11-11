@@ -15,12 +15,12 @@ const FeatureGrid = ({name, gridItems, heading }) => (
     const rowReverse = index % 2 === 0 ? 'stories-container' : 'stories-container-reverse';
 
     return (
-      <div className={rowReverse} key={item.text}>
+      <div className={name === 'index' ? 'index' : rowReverse} key={item.text}>
 
         <div className='image-div'>
           <PreviewCompatibleImage imageInfo={item} />
         </div>
-        
+
         <div className='text-div'>
           <p className={'stories-text'}>{item.text}</p>
           <Link to="/">
@@ -28,7 +28,7 @@ const FeatureGrid = ({name, gridItems, heading }) => (
           </Link>
         </div>
       </div>
-    )   
+    )
   })}
   </div>
 )

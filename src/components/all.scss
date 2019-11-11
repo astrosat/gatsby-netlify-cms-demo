@@ -210,6 +210,12 @@ $menu-label-color: $white-ter;
 }
 
 // STORIES SECTION
+
+.index {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .stories-container {
   display: flex;
   flex-wrap: wrap;
@@ -225,10 +231,7 @@ $menu-label-color: $white-ter;
   flex-direction: row-reverse;
 }
 
-.reverse {
-  flex-direction: row-reverse;
-}
-
+.index > *,
 .stories-container > *,
 .stories-container-reverse > * {
   flex: 1 1 300px;
