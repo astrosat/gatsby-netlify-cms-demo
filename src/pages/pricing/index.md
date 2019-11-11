@@ -10,13 +10,13 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        Image 1 text
+        Pricing page text 1
     - image: /img/coffee-gear.png
       text: >
-        image 2 text
+        Pricing page text 2
     - image: /img/tutorials.png
       text: >
-        image 3 text
+        Pricing page text 3
   heading: What we offer
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
