@@ -1,71 +1,28 @@
 ---
 templateKey: index-page
-title: Great Pepsi with a conscience
-image: /img/products-full-width.jpg
-heading: Great Pepsi with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: DATA VISUALIZATION THROUGH SPACE TECHNOLOGY added text
+image: ../img/Orbis-assets/Orbis/header_image.jpg
+heading: DATA VISUALIZATION THROUGH SPACE TECHNOLOGY
+subheading: Harnessing the power of space data to decision support on Earth.
 mainpitch:
-  title: Why Allyn
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: MODULES
 intro:
   blurbs:
+    - image: ../img/Orbis-assets/Orbis/blog1.png
+      text: |
+        blurb text 1
+    - image: ../img/Orbis-assets/Orbis/cz5-launchfailure.png
+      text: |
+        blurb text 2
+    - image: ../img/Orbis-assets/Orbis/module3.png
+      text: |
+        blurb text 3
     - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    javascript’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. 
+      text: blurb 4 text - orange coffee stuff
+  heading: STORIES
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. MORE TEXT ADDED.
+  heading: A World of Data From Space
 ---
 

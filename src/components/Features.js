@@ -1,26 +1,35 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import {Link} from 'gatsby'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
-    {gridItems.map(item => (
-      <div key={item.text} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
-            </div>
-          </div>
-          <p>{item.text}</p>
-        </section>
+const FeatureGrid = ({name, gridItems, heading }) => (
+
+  <div>
+    <div className="modules-header-div">
+      {heading}
+    </div>
+
+  {gridItems.map((item, index) => {
+
+    const rowReverse = index % 2 === 0 ? 'stories-container' : 'stories-container-reverse';
+
+    return (
+      <div className={rowReverse} key={item.text}>
+
+        <div className='image-div'>
+          <PreviewCompatibleImage imageInfo={item} />
+        </div>
+        
+        <div className='text-div'>
+          <p className={'stories-text'}>{item.text}</p>
+          <Link to="/">
+            Find More
+          </Link>
+        </div>
       </div>
-    ))}
+    )   
+  })}
   </div>
 )
 
