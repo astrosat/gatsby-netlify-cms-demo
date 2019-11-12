@@ -2,7 +2,7 @@
 templateKey: pricing-page
 title: Pricing
 image: /img/jumbotron.jpg
-heading: OUR PRICING PLANS master branch test
+heading: OUR PRICING PLANS master branch test Anna
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua.
